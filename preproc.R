@@ -1,3 +1,6 @@
+###  preproc.R
+#
+
 if(!file.exists("summarySCC_PM25.rds"))
 {
 	stop("Can't find the data input file, summarySCC_PM25.rds.  Make sure it's in working directory")
@@ -11,6 +14,6 @@ NEI <- tbl_df(NEIdf)
 rm(NEIdf)
 
 #
-# Source the ggplotss graphics library
+# Source the ggplotss graphics library, always, just because
 #
 library(ggplot2)

@@ -1,3 +1,7 @@
+#
+### plot6.R
+#
+
 cat ("Compare emissions from motor vehicle sources in Baltimore City with emissions to that from Los Angeles County, California (fips == 06037). \n")
 
 if(!file.exists("preproc.R"))

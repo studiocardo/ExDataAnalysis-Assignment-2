@@ -1,3 +1,7 @@
+#
+### plot4.R
+#
+
 cat ("How have emissions from coal combustion-related sources changed from 1999–2008 in the US? \n")
 
 

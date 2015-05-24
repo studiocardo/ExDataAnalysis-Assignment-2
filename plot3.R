@@ -1,3 +1,7 @@
+#
+### plot3.R
+#
+
 if(!file.exists("preproc.R"))
 {
 	stop("Can't find the helper file, preproc.R.  Make sure it's in working directory \n")
